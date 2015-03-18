@@ -4,13 +4,13 @@
 // @description  Changes the TagPro favicon to your current flair
 // @include      http://tagpro-*.koalabeast.com*
 // @author       BobSmithIV
-// @version      0.1
+// @version      1.0
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @downloadURL  https://raw.githubusercontent.com/BobSmithIV/TagProFaviconFlair/master/TagProFaviconFlair.user.js
 // ==/UserScript==
 
-// initialize flair (called first time the userscript is run only):
+// initialize favicon to the default favicon (called first time the userscript is run only):
 if(!GM_getValue('currentFlair')){
     GM_setValue('currentFlair','initial');
 }
@@ -26,8 +26,8 @@ $('body').click(function(){
     for(var i=0; i<elements.length; i++) {
         if(elements[i].name=="selectedFlair" && elements[i].checked){ // if this is a selected flair radio,
             if (GM_getValue('currentFlair')!=elements[i].value){ // if the selected flair is different to what it was before
-                changeFavicon(elements[i].value); // change the favicon 
                 GM_setValue('currentFlair',elements[i].value); // save the new value
+                changeFavicon(elements[i].value); // change the favicon 
             }
         }
     }
