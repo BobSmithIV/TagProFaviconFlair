@@ -7,6 +7,7 @@
 // @version      0.1
 // @grant        GM_getValue
 // @grant        GM_setValue
+// @downloadURL  https://raw.githubusercontent.com/BobSmithIV/TagProFaviconFlair/master/TagPro%20Favicon%20Flair.user.js
 // ==/UserScript==
 
 if(!GM_getValue('currentFlair')){
