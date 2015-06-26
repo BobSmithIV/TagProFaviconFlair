@@ -16,4 +16,4 @@ On Firefox: As above, but you should have [Greasemonkey](https://addons.mozilla.
 
 *****
 
-Last updated 30/4/15.  Compatible with all event flairs up to and including the second St Patrick's day flairs.  
+Last updated 30/4/15.  Compatible with all event flairs up to and including the equal marriage flair.  
