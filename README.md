@@ -6,7 +6,7 @@ This userscript will change the TagPro favicon (the wee icon in the tab) to your
 
 **Note:** you will have to change your flair once when you first install the script in order to initialize this userscript, after which it will remember which flair you currently use.  
 
-**Compatability issues:**  This script **is** compatabile with my [random flairs userscript](https://github.com/BobSmithIV/TagProRandomFlairs), **BUT** only if, within Tampermonkey, the Favicon Flair script has a higher priority; in other words, if in your dashboard, the number by the userscript is higher for the Favicon Flair script than the Random Flairs script.  If it isn't, you can reorder them by first sorting the list by priority number, then using the 'sort' column to click and drop them into whatever order you wish.  
+**Compatability issues:**  This script is **not** compatabile with my [random flairs userscript](https://github.com/BobSmithIV/TagProRandomFlairs), however that userscript now includes the ability to change your favicon too, so if you wish to use both, simply install the random flairs userscript and select 'Change favicon' from the bottom of your profile page.  
 
 To install this script:
 
